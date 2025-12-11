@@ -15,7 +15,7 @@ export const MENU_ITEMS: MenuItem[] = [
 
 export const BRAND_COLORS: ColorSwatch[] = [
   { 
-    name: 'Vidde Dark', 
+    name: 'Vidde Main Blue', 
     hex: '#0F161A', 
     pms: 'Black 6 C', 
     cmyk: '80 60 50 80', 
@@ -25,7 +25,7 @@ export const BRAND_COLORS: ColorSwatch[] = [
     textColor: 'white' 
   },
   { 
-    name: 'Vidde Slate', 
+    name: 'Vidde Blue Secondary', 
     hex: '#6E7881', 
     pms: '7544 C', 
     cmyk: '40 20 20 40', 

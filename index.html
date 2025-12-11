@@ -110,17 +110,17 @@
 
     const BRAND_COLORS: ColorSwatch[] = [
       { 
-        name: 'Vidde Dark', 
+        name: 'Vidde Main Blue', 
         hex: '#0F161A', 
         pms: 'Black 6 C', 
         cmyk: '80 60 50 80', 
         rgb: '15 22 26',
-        folie: 'Avery 900 Super Black', 
+        folie: 'Avery 900 Super Black',
         ral: '9005 Jet Black',
         textColor: 'white' 
       },
       { 
-        name: 'Vidde Slate', 
+        name: 'Vidde Blue Secondary', 
         hex: '#6E7881', 
         pms: '7544 C', 
         cmyk: '40 20 20 40', 
@@ -406,11 +406,11 @@
                    </svg>
                  </div>
                  
-                 {/* 2. Slate / White */}
+                 {/* 2. Slate / White (now Dark Blue symbol) */}
                  <div className="aspect-square bg-brand-slate rounded-[2.5rem] flex items-center justify-center p-12 group hover:scale-105 transition-transform duration-500 ease-out">
                    <svg width="100%" height="100%" viewBox="0 0 300 291" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path d="M241.866 95.3467L170.623 271H131.243L60 95.3467H99.0224L151.649 232.555L204.991 95.3467H241.866Z" fill="white"/>
-                     <path d="M268 42.2052C268 48.3918 265.494 53.6945 260.482 58.1134C255.709 62.3114 249.503 64.4104 241.866 64.4104C233.99 64.4104 227.546 62.3114 222.534 58.1134C217.76 53.6945 215.374 48.3918 215.374 42.2052C215.374 35.5768 217.76 30.2741 222.534 26.297C227.546 22.099 233.99 20 241.866 20C249.503 20 255.709 22.099 260.482 26.297C265.494 30.2741 268 35.5768 268 42.2052Z" fill="white"/>
+                     <path d="M241.866 95.3467L170.623 271H131.243L60 95.3467H99.0224L151.649 232.555L204.991 95.3467H241.866Z" fill="#0F161A"/>
+                     <path d="M268 42.2052C268 48.3918 265.494 53.6945 260.482 58.1134C255.709 62.3114 249.503 64.4104 241.866 64.4104C233.99 64.4104 227.546 62.3114 222.534 58.1134C217.76 53.6945 215.374 48.3918 215.374 42.2052C215.374 35.5768 217.76 30.2741 222.534 26.297C227.546 22.099 233.99 20 241.866 20C249.503 20 255.709 22.099 260.482 26.297C265.494 30.2741 268 35.5768 268 42.2052Z" fill="#0F161A"/>
                    </svg>
                  </div>
 
@@ -422,11 +422,11 @@
                    </svg>
                  </div>
 
-                 {/* 4. Gold / White (Soft) */}
+                 {/* 4. Gold / Dark Gold symbol */}
                  <div className="aspect-square bg-brand-gold rounded-[2.5rem] flex items-center justify-center p-12 group hover:scale-105 transition-transform duration-500 ease-out">
                    <svg width="100%" height="100%" viewBox="0 0 300 291" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path d="M241.866 95.3467L170.623 271H131.243L60 95.3467H99.0224L151.649 232.555L204.991 95.3467H241.866Z" fill="white"/>
-                     <path d="M268 42.2052C268 48.3918 265.494 53.6945 260.482 58.1134C255.709 62.3114 249.503 64.4104 241.866 64.4104C233.99 64.4104 227.546 62.3114 222.534 58.1134C217.76 53.6945 215.374 48.3918 215.374 42.2052C215.374 35.5768 217.76 30.2741 222.534 26.297C227.546 22.099 233.99 20 241.866 20C249.503 20 255.709 22.099 260.482 26.297C265.494 30.2741 268 35.5768 268 42.2052Z" fill="white"/>
+                     <path d="M241.866 95.3467L170.623 271H131.243L60 95.3467H99.0224L151.649 232.555L204.991 95.3467H241.866Z" fill="rgb(42 33 25)"/>
+                     <path d="M268 42.2052C268 48.3918 265.494 53.6945 260.482 58.1134C255.709 62.3114 249.503 64.4104 241.866 64.4104C233.99 64.4104 227.546 62.3114 222.534 58.1134C217.76 53.6945 215.374 48.3918 215.374 42.2052C215.374 35.5768 217.76 30.2741 222.534 26.297C227.546 22.099 233.99 20 241.866 20C249.503 20 255.709 22.099 260.482 26.297C265.494 30.2741 268 35.5768 268 42.2052Z" fill="rgb(42 33 25)"/>
                    </svg>
                  </div>
 
@@ -640,7 +640,16 @@
                    <div className="bg-brand-light rounded-[2rem] p-10 md:col-span-2 flex flex-col justify-center">
                       <h4 className="font-medium text-2xl mb-4 tracking-tight">Prompt Engineering</h4>
                       <p className="text-brand-slate text-sm font-mono bg-white p-6 rounded-2xl leading-relaxed">
-                        /imagine prompt: surreal line art illustration, two human profiles facing each other, intricate parallel line hatching texture...
+                        1. The Unraveling Mind (Theme: Anxiety Relief) Minimalist continuous line art of a human profile silhouette where the mind is represented by a tangled scribbled knot of Dark Espresso #302418 that gently unravels into a single peaceful straight line flowing outward. Background is matte Cream #F0E4D7. A single circular accent in Muted Gold #C89867 hovers near the forehead. Psychological concept of clarity and therapy. High-end editorial illustration, vector style, emotional, no text.<br/><br/>
+                        2. The Growth Mindset (Theme: Personal Development) A single sophisticated line drawing of an open hand in Dark Espresso #302418 holding a delicate, abstract seedling. The seedling is minimal, with leaves rendered in Muted Gold #C89867. The background is a split composition of White #ffffff and Cream #F0E4D7. Concept of nurturing and psychological growth. Clean lines, vast negative space, visually stunning, museum quality art, no text.<br/><br/>
+                        3. The Connection (Theme: Relationships/Couples) Two abstract faces drawn in profile, very close to each other but not touching, creating electric tension. The faces are formed by one single fluid line in Dark Espresso #302418. Between them is an abstract geometric shape representing a spark or bridge in Muted Gold #C89867. Background is solid Cream #F0E4D7. Matisse-inspired line art, emotional, intimacy, empathy, fine art style, no text.<br/><br/>
+                        4. The Inner Child (Theme: Trauma/Healing) A large, protective minimalist figure outlined in Dark Espresso #302418 gently embracing a smaller, fainter inner figure. The embrace forms a heart shape through negative space. An accent of Muted Gold #C89867 highlights the heart center. Background is clean White #ffffff. Emotional, touching, psychological safety, soft curves, elegant line work, no text.<br/><br/>
+                        5. The Balanced Self (Theme: Stability/CBT) Abstract minimal composition of three organic stones stacked perfectly on top of each other. The stones are outlined in fine Dark Espresso #302418 lines. The middle stone is filled with a solid Muted Gold #C89867. Background is Cream #F0E4D7. Concept of mindfulness, balance, and zen. Very simple, stark, thought-provoking, modern art print, no text.<br/><br/>
+                        6. The Open Door (Theme: Opportunity/Change) A simple line drawing of a door frame standing in an open field, drawn in Dark Espresso #302418. Stepping through the door is a fluid, abstract shadow shape. A sun or light source above the door is a simple circle in Muted Gold #C89867. Background is White #ffffff. Metaphor for new beginnings and transitions. Minimalist, surreal, thought-provoking, no text.<br/><br/>
+                        7. The Ripple Effect (Theme: Impact/Behavior) A single drop falling into water, creating wide, elegant concentric rings. The rings are fine lines in Dark Espresso #302418 on a Cream #F0E4D7 background. The drop itself is a solid dot of Muted Gold #C89867. Concept of cause and effect, behavioral psychology. Clean, soothing, hypnotic, minimal aesthetic, no text.<br/><br/>
+                        8. The Puzzle Piece (Theme: Understanding/Diagnosis) A minimalist human head silhouette in profile. Inside the head is a single floating puzzle piece in Muted Gold #C89867 that looks like it is falling into place. The rest of the line work is Dark Espresso #302418. Background is White #ffffff. Concept of "making sense of things" and insight. Intellectual, clever, modern vector art, no text.<br/><br/>
+                        9. The Path (Theme: Guidance/Coaching) A winding, continuous line path that starts chaotic at the bottom in Dark Espresso #302418 and becomes smooth and ascending as it goes up. A Muted Gold #C89867 compass needle floats in the negative space. Background is Cream #F0E4D7. Metaphor for the therapeutic journey. Abstract, directional, movement, fine art line drawing, no text.<br/><br/>
+                        10. The Deep Breath (Theme: Stress Management) An abstract visualization of breath. Expanding and contracting circular lines in Dark Espresso #302418 that look like air moving. A central focal point of calm is represented by a soft Muted Gold #C89867 shape. Background is White #ffffff. Concept of lungs, breathing, and calm. Airy, light, ethereal, minimal line art, no text.
                       </p>
                    </div>
                    <div className="bg-brand-dark text-white rounded-[2rem] p-10 flex items-center justify-center">
@@ -766,8 +775,8 @@
                 </div>
               </div>
 
-              <h3 className="text-2xl font-medium mb-16 pt-12">Annonseformater</h3>
-              
+              <h3 className="text-2xl font-medium mb-12 pt-12">Annonseformater</h3>
+              <p className="text-base md:text-lg text-brand-slate mb-10 -mt-10 max-w-3xl">Eksemplene nedenfor er ment å illustrere hvordan typografi og illustrasjoner skal benyttes</p>
               <div className="space-y-32">
                  
                  {/* 1. STORIES (9:16) */}
@@ -812,12 +821,12 @@
                        </div>
 
                        {/* Story 3 - High Converting Split */}
-                       <div className="aspect-[9/16] bg-brand-light rounded-[2.5rem] relative overflow-hidden group flex flex-col">
-                           <div className="h-[60%] bg-brand-slate relative">
-                               <img src="components/3.jpg" alt="Woman" />
-                               <div className="absolute inset-0 flex items-center justify-center">
-                                   <h3 className="text-brand-dark text-4xl font-serif text-center px-8">"Kunnskap er ferskvare."</h3>
-                               </div>
+                         <div className="aspect-[9/16] bg-brand-light rounded-[2.5rem] relative overflow-hidden group flex flex-col">
+                           <div className="h-[60%] bg-brand-slate relative overflow-hidden">
+                             <img src="components/3.jpg" alt="Woman" className="absolute inset-0 w-full h-full object-cover" />
+                             <div className="absolute inset-0 flex items-center justify-center z-10">
+                               <h3 className="text-white text-4xl font-serif text-center px-8">"Kunnskap er ferskvare."</h3>
+                             </div>
                            </div>
                            <div className="h-[40%] p-10 flex flex-col justify-between bg-white">
                                <p className="text-brand-dark text-xl font-medium leading-relaxed tracking-wide">
@@ -1261,11 +1270,11 @@
             <Section id="last-ned" title="Ressurser">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {[
-                  { title: 'Logo Pakke', type: 'ZIP', size: '12 MB', color: 'bg-brand-gold text-black' },
-                  { title: 'Fontfiler', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white' },
+                  { title: 'Logo Pakke', type: 'ZIP', size: '12 MB', color: 'bg-brand-gold text-black', href: './Vidde%20logo.zip' },
+                  { title: 'Fontfiler', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white', href: './vidde-fonts.zip' },
                   { title: 'Presentasjoner', types: ['POWERPOINT', 'WORD'], size: '32 MB', color: 'bg-brand-dark text-white' },
                 ].map((item, i) => (
-                  <a key={i} href="/" role="button" aria-label={`Last ned ${item.title}`} className="bg-white rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group">
+                  <a key={i} href={item.href || '/'} role="button" aria-label={`Last ned ${item.title}`} className="bg-white rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group">
                      <div className="flex justify-between items-start">
                        <div className="flex gap-2">
                          {item.types ? item.types.map((t, idx) => <span key={idx} className={`px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest ${item.color}`}>{t}</span>) : <span className={`px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest ${item.color}`}>{item.type}</span>}
