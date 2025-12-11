@@ -78,9 +78,9 @@ const App: React.FC = () => {
                vidde <span className="font-serif text-brand-gold">hever</span><br/>
                <span>kompetanse.</span>
              </h1>
-                   <p className="text-xl lg:text-2xl max-w-2xl leading-relaxed font-normal tracking-wide" style={{ color: '#6E7881' }}>
-                      En visuell identitet bygget på nordisk minimalisme, varme jordtoner og menneskelig interaksjon.
-                   </p>
+                  <p className="text-xl lg:text-2xl max-w-2xl leading-relaxed font-normal tracking-wide text-white">
+                     En visuell identitet bygget på nordisk minimalisme, varme jordtoner og menneskelig interaksjon.
+                  </p>
            </div>
         </section>
 
