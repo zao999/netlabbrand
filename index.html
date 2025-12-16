@@ -397,7 +397,10 @@
 
             {/* Navnetrekket */}
             <Section id="navnetrekket" title="Logo">
-              <div className="flex flex-col gap-8">
+
+                       
+                <img src="5.svg" alt=""/>
+              <div className="flex flex-col gap-8 hide hidden" hidden>
                 {/* Primary Logo Construction */}
                 <div className="bg-white rounded-[2.5rem] p-12 lg:p-32 flex items-center justify-center min-h-[400px]">
                    <LogoLockup className="w-full max-w-3xl" color="#0F161A" secondaryColor="#6E7881" />
@@ -431,8 +434,11 @@
 
 
       <h3 className="text-2xl mt-10 font-medium mb-8 tracking-tight">Glyph</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10">
-                             
+         <img src="2.svg" alt="" />
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10 hidden hide">
+                       
+             
+     
 
                  {/* 1. Dark / Light Blue */}
                  <div className="aspect-square bg-brand-dark rounded-[2.5rem] flex items-center justify-center p-12 group hover:scale-105 transition-transform duration-500 ease-out">
@@ -503,8 +509,11 @@
                  </div>
               </div>
 
+                   <h3 className="text-2xl mt-10 font-medium mb-8 tracking-tight">Dot - symboliserer kunnskap</h3>
+         <img src="1.svg" alt="" />
 
-                            <a href="./Vidde%20logo.zip" role="button" aria-label="Last ned Last ned logo og glyph" class="mt-8 bg-brand-light  rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group"><div class="flex justify-between items-start"><div class="flex gap-2"><span class="px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest bg-brand-gold text-black">ZIP</span></div><svg class="w-8 h-8 text-brand-slate opacity-20 group-hover:text-brand-dark group-hover:opacity-100 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></div><div><h4 class="text-3xl font-medium mb-2 tracking-tight group-hover:text-brand-gold transition-colors">Last ned logo og glyph</h4><p class="text-brand-slate text-sm font-mono ">12 MB</p></div></a>
+
+                            <a href="vidde-logo-glyph-dot.zip" role="button" aria-label="Last ned Last ned logo og glyph" class="mt-8 bg-brand-light  rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group"><div class="flex justify-between items-start"><div class="flex gap-2"><span class="px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest bg-brand-gold text-black">ZIP</span></div><svg class="w-8 h-8 text-brand-slate opacity-20 group-hover:text-brand-dark group-hover:opacity-100 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></div><div><h4 class="text-3xl font-medium mb-2 tracking-tight group-hover:text-brand-gold transition-colors">Last ned logo og glyph</h4><p class="text-brand-slate text-sm font-mono ">12 MB</p></div></a>
 
 
 
@@ -1470,9 +1479,11 @@
             <Section id="last-ned" title="Ressurser">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {[
-                  { title: 'Last ned logo og glyph', type: 'ZIP', size: '12 MB', color: 'bg-brand-gold text-black', href: './Vidde%20logo.zip' },
+                  { title: 'Last ned logo og glyph', type: 'ZIP', size: '12 MB', color: 'bg-brand-gold text-black', href: './vidde-logo-glyph-dot.zip' },
                   { title: 'Fontfiler', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white', href: './vidde-fonts.zip' },
                   { title: 'Presentasjoner', types: ['POWERPOINT', 'WORD'], size: '32 MB', color: 'bg-brand-dark text-white' },
+                  { title: 'Visueller - referansebilder til KI generering', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white', href: 'referansebilder-til-ki.zip' },
+
                 ].map((item, i) => (
                   <a key={i} href={item.href || '/'} role="button" aria-label={`Last ned ${item.title}`} className="bg-brand-light rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group">
                      <div className="flex justify-between items-start">
@@ -1489,6 +1500,11 @@
                 ))}
               </div>
             </Section>
+
+                        <div className="mt-40 pt-12 flex justify-center items-center   pb-12 text-2xl font-medium tracking-tight">
+
+<h2 clss="">Trenger du designtjenester? Ta kontakt med oss på <a href="https://netlab.no/tjenester/design" class="underline">netlab.no</a></h2>
+</div>
 
             <footer className="mt-40 pt-12 flex justify-center items-center text-xs font-bold tracking-widest text-brand-slate pb-12 uppercase">
                  <span>Designet av <a href="https://netlab.no" target="_blank" rel="noreferrer" className="text-brand-dark hover:text-brand-gold transition-colors">Netlab</a></span>
