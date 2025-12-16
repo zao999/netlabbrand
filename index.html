@@ -825,7 +825,7 @@
               </div>
             </div>
 
-
+<a href="./vidde-visuals.zip" role="button" aria-label="Last ned Visueller - referansebilder til KI generering" class="mt-10 bg-brand-light rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group"><div class="flex justify-between items-start"><div class="flex gap-2"><span class="px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest bg-brand-slate text-white">ZIP</span></div><svg class="w-8 h-8 text-brand-slate opacity-20 group-hover:text-brand-dark group-hover:opacity-100 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></div><div><h4 class="text-3xl font-medium mb-2 tracking-tight group-hover:text-brand-gold transition-colors">Visueller - referansebilder til KI generering</h4><p class="text-brand-slate text-sm font-mono ">4 MB</p></div></a>
 
 
             {/* Sosiale Medier */}
@@ -1473,6 +1473,12 @@
                 </div>
 
               </div>
+
+
+              <a href="./vidde-maler.zip" role="button" aria-label="Last ned Presentasjoner" class="bg-brand-light rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group"><div class="flex justify-between items-start"><div class="flex gap-2"><span class="px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest bg-brand-dark text-white">POWERPOINT</span><span class="px-4 py-1.5 rounded-full text-[10px] font-bold tracking-widest bg-brand-dark text-white">WORD</span></div><svg class="w-8 h-8 text-brand-slate opacity-20 group-hover:text-brand-dark group-hover:opacity-100 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></div><div><h4 class="text-3xl font-medium mb-2 tracking-tight group-hover:text-brand-gold transition-colors">Presentasjoner</h4><p class="text-brand-slate text-sm font-mono ">32 MB</p></div></a>
+
+
+
             </Section>
 
             {/* Last ned */}
@@ -1481,8 +1487,8 @@
                 {[
                   { title: 'Last ned logo og glyph', type: 'ZIP', size: '12 MB', color: 'bg-brand-gold text-black', href: './vidde-logo-glyph-dot.zip' },
                   { title: 'Fontfiler', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white', href: './vidde-fonts.zip' },
-                  { title: 'Presentasjoner', types: ['POWERPOINT', 'WORD'], size: '32 MB', color: 'bg-brand-dark text-white' },
-                  { title: 'Visueller - referansebilder til KI generering', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white', href: 'referansebilder-til-ki.zip' },
+                  { title: 'Presentasjoner', types: ['POWERPOINT', 'WORD'], size: '32 MB', color: 'bg-brand-dark text-white', href: './vidde-maler.zip'},
+                  { title: 'Visueller - referansebilder til KI generering', type: 'ZIP', size: '4 MB', color: 'bg-brand-slate text-white', href: './vidde-visuals.zip' },
 
                 ].map((item, i) => (
                   <a key={i} href={item.href || '/'} role="button" aria-label={`Last ned ${item.title}`} className="bg-brand-light rounded-[2.5rem] p-10 hover:-translate-y-2 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col justify-between h-72 group">
